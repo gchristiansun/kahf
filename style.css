@@ -3,6 +3,10 @@ a {
     color: white !important
 }
 
+.text-nav {
+    color: black !important
+}
+
 .containerHeader {
     display: flex;
     justify-content: center;
@@ -30,7 +34,7 @@ a {
 }
 
 @media (min-width: 420px) {
-    .overlay-image {
+    .overlayImage {
         position: absolute;
         top: 65%;
         left: 15%;
@@ -39,19 +43,24 @@ a {
         width: 20%;
         box-shadow: 4px 8px 16px;
         border-radius: 10px;
+        transition: transform 1s ease ;
     }
 }
 
-@media (max-width: 420px) {
-    .overlay-image {
+@media (max-width: 440px) {
+    .overlayImage {
         position: absolute;
-        top: 30%;
-        left: 15%;
+        top: 28%;
+        left: 20%;
         transform: translate(-50%, -50%);
         z-index: 100;
-        width: 15%;
+        width: 20%;
         box-shadow: 4px 8px 16px;
     }
+}
+
+.hidden {
+    transform: translateX(100px);
 }
 
 .banner {

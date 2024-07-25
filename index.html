@@ -20,16 +20,23 @@
 
   <!-- Navigasi bar -->
   <nav class="containerNav">
-    <a class="nav"><img class="img-brand" src=assets/logo_kahf.png alt="logo"></a>
+    <a class="nav"><img class="img-brand" src="assets/logo_kahf.png" alt="logo"></a>
     <ul class="nav">
       <li class="nav-item">
         <a class="nav-link active" aria-current="page" href="#">Home</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">About</a>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Product
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <li><a class="dropdown-item text-nav" href="#">Face Wash</a></li>
+          <li><a class="dropdown-item text-nav" href="#">Body Wash</a></li>
+          <li><a class="dropdown-item text-nav" href="#">Fragrance</a></li>
+        </ul>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Product</a>
+        <a class="nav-link" href="#">Contact</a>
       </li>
     </ul>
   </nav>
@@ -40,7 +47,7 @@
     <img class="banner" src="assets/kahf_product1.jpg" alt="banner">
 
     <!-- Carousel slide Bootstrap -->
-    <div id="carouselExampleSlidesOnly" class="carousel slide overlay-image" data-bs-ride="carousel">
+    <div id="carouselExampleSlidesOnly" class="carousel slide overlayImage" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
             <img src="assets/kahf1.png" class="d-block w-100" alt="...">
