@@ -72,10 +72,21 @@ a {
     padding: 5%
 }
 
-.img-info {
-    border-radius: 10px;
-    width: 25%;
-    margin: 0px 3% 0px 3%
+
+@media (min-width: 450px) {
+    .img-info {
+        border-radius: 10px;
+        width: 25%;
+        margin: 0px 3% 0px 3%
+    }
+}
+
+@media (max-width: 450px) {
+    .img-info {
+        border-radius: 10px;
+        width: 70%;
+        margin: 3%
+    }
 }
 
 .img-info:hover {
