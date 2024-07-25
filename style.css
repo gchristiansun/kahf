@@ -33,12 +33,11 @@ a {
     margin: 10px 0 10px 0
 }
 
-@media (min-width: 420px) {
+@media (min-width: 440px) {
     .overlayImage {
-        position: absolute;
-        top: 65%;
-        left: 15%;
-        transform: translate(-50%, -50%);
+        position: fixed;
+        top: 38%;
+        left: 5%;
         z-index: 100;
         width: 20%;
         box-shadow: 4px 8px 16px;
@@ -60,7 +59,7 @@ a {
 }
 
 .hidden {
-    transform: translateX(100px);
+    transform: translateX(-300%);
 }
 
 .banner {
