@@ -9,7 +9,7 @@ window.addEventListener('scroll', function() {
     
 window.addEventListener('DOMContentLoaded', (event) => {
     const overlay = document.getElementById('overlay_image')
-    if (window.innerWidth < 950) {
+    if (window.innerWidth < 1500) {
         overlay.style.display = 'none'
     } 
     });

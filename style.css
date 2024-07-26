@@ -140,7 +140,7 @@ footer {
 
 .container-card {
     background-color: #b1bcabff;
-    padding: 5vw;
+    padding: 5vw 5vw 0 5vw;
     display: flex;
     justify-content: center;
     overflow-x: auto;
@@ -153,7 +153,8 @@ footer {
     border-radius: 20px;
     padding: 10px 20px 10px 20px;
     height: 45px;
-    margin: 0 20px 20px 30px
+    margin: 0 20px 20px 20px;
+    width: 50%
 }
 
 main {
@@ -212,12 +213,14 @@ label {
 }
 
 .background-img {
-    width: 100%
+    width: 100%;
 }
 
 .card {
     width: 18rem;
-    margin: 0 20px 20px 20px;
+    margin: 0 30px 20px 30px;
     min-width: 250px; 
     border-radius: 5px;
 }
+
+
