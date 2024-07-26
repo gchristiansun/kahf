@@ -169,7 +169,7 @@ main {
 }
 
 footer {
-    background-color: #677160ff;
+    background-color: #1e1e1eff;
     padding: 15px;
     gap: 20px;
     text-align: center;
@@ -209,7 +209,7 @@ input[type="email"] {
 
 button {
     padding: 10px 10px;
-    background-color: #1e1e1eff;
+    background-color: #b1bcabff;
     border: none;
     cursor: pointer;
     border-radius: 5px;
@@ -239,10 +239,11 @@ footer p {
 
 fieldset {
     width: 50%;
+    min-width: 400px;
     border: 1px solid black;
     border-radius: 10px;
     padding: 20px;
-    margin-top: 40px;
+    margin-top: 100px;
 }
 
 
