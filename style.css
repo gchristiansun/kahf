@@ -18,13 +18,26 @@ a {
 .containerNav {
     display: flex;
     flex-direction: row;
+    justify-content: space-between !important;
+    padding: 15px 70px 15px 70px;
+    background-color: (255, 255, 255, 0.5) !important;
+    position: fixed !important;
+    top: 40px;
+    z-index: 1000;
+    transition: opacity 5s ease;
+    width: 100%;
+}
+
+.containerNavShow {
+    display: flex;
+    flex-direction: row;
     justify-content: space-between;
     padding: 15px 70px 15px 70px;
-    background-color: #677160ff;
-    position: sticky !important;
+    background-color: #677160ff !important;
+    position: fixed !important;
     top: 0;
     z-index: 1000;
-    transition: opacity 0.3s ease;
+    transition: opacity 5s ease;
 }
 
 .img-brand {
@@ -36,7 +49,7 @@ a {
 @media (min-width: 440px) {
     .overlayImage {
         position: fixed;
-        top: 38%;
+        top: 30%;
         left: 5%;
         z-index: 100;
         width: 20%;
@@ -63,7 +76,7 @@ a {
 }
 
 .banner {
-    width: 100%
+    width: 100%;
 }
 
 .text-header {
@@ -105,14 +118,77 @@ a {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    position: relative;
+}
+
+.container-img-poster h4 {
+    position: absolute;
+    color: white;
+    margin: 20vw 0 0 0;
+    font-family: canela;
+    font-size: 10vw;
+    transform: rotate(90deg);
 }
 
 .img-poster {
-    width: 50%
+    width: 50%;;
 }
 
 footer {
     background-color: #677160ff;
-    height: 500px;
 }
 
+.container-form {
+    background-color: #b1bcabff;
+}
+
+fieldset {
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(1, 0.9fr);
+    width: 20%;
+}
+
+textarea {
+    border-radius: 5px;
+    width: 95%;
+    height: 150px;
+    padding: 5px;
+    margin-bottom: 10px;
+    background-color: #f3f3f3;
+}
+
+.css-button-local {
+    border-radius: 10px;
+    background-color: #1e1e1eff;
+    padding: 5px 40px 5px 40px;
+    color: white;
+    margin-left: 3vw;
+    height: 40px
+}
+
+.css-button-show-local {
+    border: 0;
+    margin: 2vw;
+    font-size: 1.4rem;
+    font-weight: bold;
+    background-color: white;
+    padding: 0
+}
+
+.css-format-local {
+    border-radius: 5px;
+    width: 95%;
+    padding: 5px;
+    background-color: #f3f3f3;
+}
+ 
+label {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: white
+}

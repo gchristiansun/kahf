@@ -14,4 +14,11 @@ window.addEventListener('DOMContentLoaded', (event) => {
     } 
     });
     
-    
+window.addEventListener('scroll', function() {
+    var opacitynav = document.querySelector('.containerNav');
+    if (window.scrollY > 50) {
+        opacitynav.classList.add('containerNavShow');
+    } else {
+        opacitynav.classList.remove('containerNavShow');
+    }
+    });
