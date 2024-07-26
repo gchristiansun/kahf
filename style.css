@@ -138,8 +138,26 @@ footer {
     background-color: #677160ff;
 }
 
-.container-form {
+.container-card {
     background-color: #b1bcabff;
+    padding: 5vw;
+    display: flex;
+    justify-content: center;
+    overflow-x: auto;
+    width: calc(100vw - 10wv);
+    flex-wrap: wrap;
+}
+
+.container-card h4 {
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px 20px 10px 20px;
+    height: 45px;
+    margin: 0 20px 20px 30px
+}
+
+main {
+    overflow-x: hidden;
 }
 
 fieldset {
@@ -191,4 +209,15 @@ label {
     margin-top: 20px;
     margin-bottom: 10px;
     color: white
+}
+
+.background-img {
+    width: 100%
+}
+
+.card {
+    width: 18rem;
+    margin: 0 20px 20px 20px;
+    min-width: 250px; 
+    border-radius: 5px;
 }
